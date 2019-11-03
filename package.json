@@ -1,0 +1,33 @@
+{
+  "name": "giveaway-network-dev",
+  "version": "1.0.0",
+  "description": "The giveaway network development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Sassi",
+  "license": "LicenseRef-LICENSE",
+  "private": true,
+  "dependencies": {
+    "async": "^2.5.0",
+    "bull": "^3.0.0",
+    "defaults": "^1.0.3",
+    "discord.js": "^11.1.0",
+    "file-system": "^2.2.2",
+    "fisherman-discord.js": "^1.0.2",
+    "ioredis": "^3.1.4",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "moment-shortformat": "^2.1.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.9",
+    "parallel-handle-fisherman": "^1.0.3",
+    "parse-duration": "^0.1.1",
+    "path": "^0.12.7",
+    "require-all": "^2.2.0",
+    "require-dir-all": "^0.4.12",
+    "socket.io": "^2.0.3",
+    "xregexp": "^3.2.0"
+  }
+}

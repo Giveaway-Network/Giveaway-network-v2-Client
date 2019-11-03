@@ -1,0 +1,26 @@
+{
+    "token": "token goes here",
+    "fishermanOpts": {
+        "prefixes": "gn!",
+        "ownerID": "238635692945702912"
+    },
+    "redisOpts" : {
+        "host" : "10.99.99.1",
+        "port" : 6379,
+        "db": 0,
+        "password":"redis password"
+    },
+    "mongoOpts" : {
+        "url" : "mongodb://10.99.99.1:27017/gacomunity",
+        "opts" : {}
+    },
+    "socket.io": {
+        "server" :{
+
+        },
+        "client": {
+            "url": "http://localhost:7000/socket",
+            "opts":{}
+        }
+    }
+}
